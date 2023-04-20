@@ -233,6 +233,7 @@
     height: 250px;
     margin: 0 auto;
     justify-content: center;
+    border-radius: 24px;
   }
 
   .mostruario__lista img:hover {
