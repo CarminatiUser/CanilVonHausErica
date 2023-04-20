@@ -23,9 +23,6 @@
 
   }
 
-  /*Slider*/
-  
-
   .sublinhado{
     height: 2px;
     background-color: black;
@@ -34,7 +31,7 @@
   /*Inicio*/ 
   .conteudo__inicio__titulo{
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
 
   .conteudo__inicio__corpo{
@@ -54,7 +51,7 @@
   /*Aba contatos*/
   .conteudo__contatos__titulo{
       text-align: center;
-      padding-top: 3rem;
+      padding-top: 4rem;
   }
 
   .conteudo__contatos__corpo{
@@ -93,7 +90,7 @@
 
   /*Aba Sobre o Canil*/
   .about{
-    margin: 3rem 0;
+    margin: 4rem 0;
   }
   /*Historia*/
   .about__historia{
@@ -105,7 +102,6 @@
 
   .about__historia__titulo{
     grid-row: 1/2;
-    padding-top: 1rem;
   }
 
   .about__historia__texto{
@@ -199,7 +195,7 @@
 
   /*Aba FIlhotes Disponiveis*/
   .disponiveis{
-    margin: 2rem 4rem;
+    margin: 0 2rem;
   }
 
   .disponiveis__titulo{
@@ -223,6 +219,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 4rem;
+    padding-bottom: 2rem;
   }
 
   .mostruario__lista{
@@ -263,8 +260,8 @@
   }
 
   .mostruario__lista img{
-    height:60%;
-    width: 55%;
+    height:80%;
+    width: 75%;
   }
 
   .mostruario__titulo{

@@ -52,6 +52,7 @@
     .container__imagem{
         padding-left: 0.7rem;
         width: 28px;
+        height: 28px;
     }
 
     .container__titulo{
