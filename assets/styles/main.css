@@ -196,22 +196,14 @@
   /*Aba FIlhotes Disponiveis*/
   .disponiveis{
     margin: 0 2rem;
+    margin-bottom: 2rem;
   }
 
-  .disponiveis__titulo{
-    display: flex;
-    justify-content: center;
-  }
-
-  .disponiveis__lista{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-  }
 
   /*Aba Matrizes e Reprodutores*/
   .matrizes{
     margin: 0 4rem;
+    margin-bottom: 2rem;
   }
 
   .mostruario__titulo{
@@ -244,7 +236,7 @@
   }
 
   .mostruario__lista img:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.05);
   }
 
   @media (max-width: 1050px) {
