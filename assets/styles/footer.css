@@ -52,4 +52,10 @@ footer{
     .rodape__texto{
         margin: 0 4rem;
     }
+
+    .rodape__contatos{
+        
+        padding: 2rem 30%;
+    }
+
 }

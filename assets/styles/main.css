@@ -32,6 +32,7 @@
   .conteudo__inicio__titulo{
     text-align: center;
     padding-top: 4rem;
+    text-decoration: overline black;
   }
 
   .conteudo__inicio__corpo{
@@ -52,6 +53,7 @@
   .conteudo__contatos__titulo{
       text-align: center;
       padding-top: 4rem;
+      text-decoration: overline black;
   }
 
   .conteudo__contatos__corpo{
@@ -212,6 +214,7 @@
     align-items: center;
     padding-top: 4rem;
     padding-bottom: 2rem;
+    text-decoration: overline black;
   }
 
   .mostruario__lista{
