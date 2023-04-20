@@ -58,6 +58,7 @@
     .container__titulo{
         display: flex;
         font-size: 100%;
+        color: var(--branco);
     }
 
     .logo__mobile{
