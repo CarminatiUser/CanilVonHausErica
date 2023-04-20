@@ -51,16 +51,31 @@
 
     .container__imagem{
         padding-left: 0.7rem;
-        width: 7%;
+        width: 28px;
+    }
+
+    .container__titulo{
+        display: flex;
+        font-size: 100%;
+    }
+
+    .logo__mobile{
+        display: flex;
+        width: 10%;
+        margin-right: 0.5rem;
+        padding-right: 0.15rem;
+        background-color:var(--branco);
+        border-radius: 6px;
     }
 
     .container{
-        display: block;
+        display: flex;
         background-color: var(--verde);
         padding: 10px 0;
         display: flex;
         align-items: center;
         position: relative;
+        justify-content: space-between;
     }
 
     .lista-menu{
@@ -85,6 +100,10 @@
     .lista-menu__item{
         padding: 1em;
         background-color: var(--verde);
+    }
+
+    .lista-menu__item a {
         color: var(--branco);
+        font-weight: 600;
     }
 }
