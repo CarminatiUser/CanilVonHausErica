@@ -29,6 +29,34 @@
   }
 
   /*Inicio*/ 
+
+  .inicio__filhotes{
+    padding: 0 4rem 2rem 4rem;
+  }
+
+  .mostruario__lista__inicio{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .mostruario__lista__inicio img{
+    display: flex;
+    padding: 10px;
+    transition: .5s; /* Animation */
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 24px;
+    flex-wrap: wrap;
+  }
+
+  .mostruario__lista__inicio img:hover {
+    transform: scale(1.05);
+  }
+  
   .conteudo__inicio__titulo{
     text-align: center;
     padding-top: 4rem;
@@ -47,6 +75,38 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 100px;
     text-align: center;
+  }
+
+  .inicio__sonhos{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .inicio__sonhos__titulo{
+    text-decoration: overline black;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding-bottom: 2rem;
+  }
+
+  .inicio__sonhos__texto{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 70%;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .imagem__inicio__sonhos{
+    width: 300px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 5%;
+  }
+
+  .inicio__caes{
+    margin: 0 4rem 2rem 4rem;
   }
 
   /*Aba contatos*/
@@ -183,6 +243,7 @@
   }
 
   .about__formacao__texto{
+    padding-top: 2rem;
     grid-row: 2/3;
     grid-column: 2/3;
     width: 85%;
@@ -191,13 +252,22 @@
 
   .about__formacao img{
     grid-column: 1/2;
-    grid-row: 1/3;
+    grid-row: 1/4;
     width: 70%;
   } 
 
+  .about__formacao__lista{
+    padding-top: 1rem;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+    list-style: none;
+    font-weight: 500;
+  }
+
   /*Aba FIlhotes Disponiveis*/
   .disponiveis{
-    margin: 0 2rem;
+    margin: 0 4rem;
     margin-bottom: 2rem;
   }
 
@@ -243,11 +313,39 @@
     transform: scale(1.05);
   }
 
+  .reprodutores{
+    margin: 0 10rem;
+  }
+
   @media (max-width: 1050px) {
 
   .linha{
     margin-top: 2rem;
     margin-bottom: 0;
+  }
+  /*Matrizes*/
+  .inicio__sonhos{
+    grid-template-columns: 1fr;
+  }
+
+  .inicio__sonhos__titulo{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding-bottom: 1rem;
+  }
+
+  .inicio__sonhos__texto{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 80%;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .imagem__inicio__sonhos{
+    padding-top: 1rem;
+    grid-row: 3/4;
+    grid-column: 1/2;
   }
 
   /*Matrizes*/
@@ -299,6 +397,11 @@
     width: 85%;
   }
 
+  .about__mobile__lista{
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
   .about__mobile img{
     grid-column: 1/2;
     grid-row: 2/3;
@@ -322,6 +425,10 @@
 
   .conteudo__contatos__mapa{
     grid-template-rows: 2/3;
+  }
+
+  .reprodutores{
+    margin: 0;
   }
 
   }
