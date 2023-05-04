@@ -361,6 +361,7 @@
   .mostruario__titulo{
     flex-direction: column;
     padding-bottom: 2rem;
+    text-align: center;
   }
   .mostruario__lista{
     flex-direction: column;
