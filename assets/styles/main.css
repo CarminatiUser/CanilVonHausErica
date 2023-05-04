@@ -265,6 +265,24 @@
     font-weight: 500;
   }
 
+  .certificados{
+    margin: 2rem 1rem 0 1rem;
+    display: flex;
+  }
+
+  .certificados__lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .certificados__lista img{
+    padding: 1rem;
+    width: 250px;
+  }
+
   /*Aba FIlhotes Disponiveis*/
   .disponiveis{
     margin: 0 4rem;
@@ -361,7 +379,6 @@
   .mostruario__titulo{
     flex-direction: column;
     padding-bottom: 2rem;
-    text-align: center;
   }
   .mostruario__lista{
     flex-direction: column;
@@ -408,6 +425,10 @@
     grid-row: 2/3;
     width: 45%;
   } 
+
+  .certificados__lista img{
+    width: 150px;
+  }
 
   /*Contatos*/
   .contatos{
