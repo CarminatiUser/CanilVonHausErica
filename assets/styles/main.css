@@ -335,6 +335,25 @@
     margin: 0 10rem;
   }
 
+  .adestramento__titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .adestramento__corpo{
+    display: flex;
+    text-align: center;
+    margin: 1rem 20%;
+  }
+
+  .adestramento__video{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
   @media (max-width: 1050px) {
 
   .linha{
